@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: foodtracker
+  jpa:
+    database: POSTGRESQL
+    show-sql: true
+    hibernate:
+      ddl-auto: create-drop
+  datasource:
+    url: jdbc:postgresql://postgres:5432/dev
+    username: postgres
+    password: postgres
+    driverClassName: org.postgresql.Driver
